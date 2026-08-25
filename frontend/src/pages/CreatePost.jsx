@@ -60,7 +60,7 @@ export default function CreatePost() {
             onChange={handleChange}
             required
             className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all"
-            placeholder="e.g. Introduction to Next.js"
+            placeholder="enter blog title"
           />
         </div>
 
@@ -76,7 +76,7 @@ export default function CreatePost() {
             onChange={handleChange}
             required
             className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all"
-            placeholder="https://example.com/image.jpg"
+            placeholder="enter image url"
           />
         </div>
 
